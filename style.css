@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    background-image: url('image/bgimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: rgb(51, 141, 39);
+}
+.project{
+      margin-top: 15px;
+      width: 100%;
+      overflow: hidden;
+}
+
+.project-item{
+    border: 1px solid black;
+    height: 200px;
+    width: 32.5%;
+    margin-right: 5px; 
+    margin-left: 5px;
+    margin-bottom: 10px;
+    float: left;
+
+}
+
+.footer{
+    height:150px;
+    background-color: rgb(105, 140, 168);
+}
+
+.footer-item{
+    width:33%;
+    float: left;
+
+}
+.link{
+    text-decoration: none;
+    color: beige;
+    display: block;
+    margin-top: 3px;
+}
