@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Body */
 .hero{
     background-image: url('image/bgimage.jpg');
     background-repeat: no-repeat;
@@ -27,6 +28,7 @@
 
 }
 
+/* Footer section */
 .footer{
     height:150px;
     background-color: rgb(105, 140, 168);
@@ -42,4 +44,110 @@
     color: beige;
     display: block;
     margin-top: 3px;
+}
+
+/* CSS for device responsive */
+/* 
+@media screen and (max-width: 1100px){
+    .hero{
+        color:azure;
+
+    }
+}
+@media screen and (max-width:700px) {
+    
+    .hero {
+        height:200px;
+
+    }
+}
+
+@media screen and (max-width:700px) {
+    
+    .hero {
+        height:200px;
+
+    }
+} */
+
+
+@media screen and (max-width: 1100px){
+
+    .hero{
+        color: white;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+    .hero{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    .hero{
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    
+    .project-item{
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    
+    .project-item{
+        width: 31.5%;
+    }
+}
+
+/* @media screen and (max-width: 544px) {
+    
+    .project-item{
+        width: 30.7%;
+    }
+} */
+
+@media screen and (max-width: 700px) {
+    
+    .project-item{
+        width: 48.5%;
+    }
+}
+
+@media screen and (max-width: 666px) {
+    
+    .project-item{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    
+    .project-item{
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    
+    .footer-mid{
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    
+    .footer-item{
+        width: 100%;
+        margin-bottom: 10px;
+        padding-left: 85px;
+    }
+
 }
